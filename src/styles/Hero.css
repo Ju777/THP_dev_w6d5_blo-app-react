@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Dancing_Script";
+    src: local("Dancing_Script"),
+     url('../assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format("truetype");
+    }
+    
+#hero-container{
+    /* border: 5px solid red; */
+    height: 90vh;
+    position : relative;
+    margin-top: 10vh;
+    font-family: "Dancing_Script";
+}
+
+.image-hero{
+    width : 100%;
+    /* height : 90vh; */ 
+}
+
+#call-to-action-container-dark{
+    position: absolute;
+    top: 23vh;
+    left: 19vw;
+    color: white;
+    /* box-shadow: 0 0 100px 10px rgba(255, 255, 0, 0.714);
+    border-radius: 20px;
+    padding: 10px; */
+    /* opacity: 1; */
+    /* background-color: rgb(255, 255, 0); */
+    /* background: linear-gradient(90, yellow, black); */
+
+}
+
+#call-to-action-button-dark{
+    transform: scale(2);
+    position: absolute;
+    top: 35vh;
+    left: 8vw;
+}
+
+#halo{
+    /* border: 5px solid yellow; */
+    /* box-shadow: 0 0 200px 100px rgba(255, 251, 0, 0.419); */
+    border-radius: 10%;
+    position: absolute;
+    top: 37vh;
+    left:20vw;
+    width: 20vw;
+    z-index:0;
+}
+
+#call-to-action-container-light{
+    position: absolute;
+    top: 20vh;
+    left: 50vw;
+    color: rgb(0, 0, 0);
+    /* box-shadow: 0 0 100px 10px rgba(255, 255, 0, 0.714);
+    border-radius: 20px;
+    padding: 10px; */
+    /* opacity: 1; */
+    /* background-color: rgb(255, 255, 0); */
+    /* background: linear-gradient(90, yellow, black); */
+
+}
+
+#call-to-action-button-light{
+    transform: scale(2);
+    position: absolute;
+    top: 35vh;
+    left: 9.5vw;
+    background-color: #ff095b;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+#call-to-action-button-light:hover{
+    transform: scale(2);
+    position: absolute;
+    top: 35vh;
+    left: 9.5vw;
+    background-color: #09adff;
+    border: none;
+    color: rgb(0, 0, 0);
+}
